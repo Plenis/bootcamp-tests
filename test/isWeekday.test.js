@@ -1,8 +1,8 @@
 describe('isWeekday' , function(){
-    it('should return true if starts with Mon, Tues, Wednes, Thurs, Fri' , function(){
-        assert.equal(countRegNumber('weekday'), true);
+    it('should return false if is not a weekday' , function(){
+        assert.equal(isWeekday('Saturday'), false);
     });
-    it('should return false if starts with Sat, Sun' , function(){
-        assert.equal(countRegNumber('not weekday'), 1);
+    it('should return true if day is a weekday' , function(){
+        assert.equal(isWeekday('Monday'), true);
     });
 });

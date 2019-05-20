@@ -1,5 +1,5 @@
 describe('countAllPaarl' , function(){
-    it('should return the number of registration numbers in the string for Paarl' , function(){
+    it('should return the number of registration numbers in the string for a specific town' , function(){
         assert.equal(countAllPaarl('CJ 123, CA 546'), 1);
     })
     
