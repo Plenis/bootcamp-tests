@@ -20,7 +20,6 @@ function findItemsOver20(item){
 ];
 
   var results = findItemsOver20(item)
-  var plus20 = results
  
 
   

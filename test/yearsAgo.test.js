@@ -3,7 +3,7 @@ describe('yearsAgo' , function(){
         assert.equal(yearsAgo('1999'), 20);
     })
     
-    it('should return how many years ago it was' , function(){
+    it('should return how long ago it was' , function(){
         assert.equal(yearsAgo('2004'), 15)
     })
 
