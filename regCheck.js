@@ -1,5 +1,5 @@
 function regCheck(cars, code){
-  return cars.startsWith(code) || cars.endsWith(code)
+  return cars.endsWith(code)
   }
 
   
